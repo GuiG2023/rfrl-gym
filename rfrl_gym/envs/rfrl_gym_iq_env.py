@@ -8,7 +8,7 @@ import rfrl_gym.detectors
 import rfrl_gym.entities
 import rfrl_gym.datagen
 import scipy.signal as signal
-
+#
 class RFRLGymIQEnv(gym.Env):
     metadata = {'render_modes': ['null', 'terminal', 'pyqt'], 'render_fps':4,
                     'reward_modes': ['dsa', 'jam'],
